@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    padding: 0;
+    max-width: 99.9vw !important;
+    margin-right: 0px;
+    margin-left: 0px;
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+
+
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    border-bottom: 0.5px solid #f4f4f4;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    flex: 1 1 auto;
+    margin-left: 6vh;
+    gap: 20px;
+}
+
+.header-logo-img {
+    margin-left: 1%;
+    height: 5.6vh;
+    width: auto;
+}
+.header-logo-img:hover {
+    opacity: 0.65;
+}
+.header-logo-text {
+    font-size: 0.95em;
+    color: white;
+}
+.header-social {
+    display: flex;
+    align-items: center;
+    margin-right: 11vh;
+    gap: 10px;
+    padding: 0px;
+    flex: 1 1 auto;
+    justify-content: flex-end;
+}
+
+.header-social-img {
+    height: 6.3vh;
+    width: auto;
+}
+.header-social-img:hover {
+    opacity: 0.8;
+}
+
+.token_text {
+    color: #93f514;
+}
+
+.media-href {
+    text-decoration: none;
+    color: white;
+}
+
+.chart-container {
+    margin-top: 15vh;
+    max-width: 98.5vw;
+}
+.chart-image {
+    width: 70%;
+}
+.chart-title {
+    display: flex;
+    justify-content: center;
+    font-size: 34px;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .chart-container {
+        margin-top: 3vh;
+    }
+    .header-logo {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 0px;
+    }
+    .header-logo-img {
+        margin-left: 0px;
+        height: 5.6vh;
+        width: auto;
+    }
+    .header {
+        flex-direction: column;
+        align-items: center; 
+        padding: 1vh 2vh; 
+    }
+    .chart-image {
+        width: 95%;
+    }
+    .chart-title {
+        margin-left: 40px;
+    }
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #6200ea;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  button:hover {
+    background-color: #3700b3;
+  }
+
+
